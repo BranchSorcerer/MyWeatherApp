@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 105px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px; /* Adjust padding as needed */
+    margin: 8px 0;
+    box-sizing: border-box; /* Include padding and borders in total width */
+    /* Add other styles if necessary */
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+/* Base styles (for all screen sizes) */
+/* ... (existing styles) ... */
+
+/* Mobile */
+@media (max-width: 600px) {
+    /* Adjust styles for small screens */
+    body {
+        font-size: 14px;
+    }
+    /* Add more mobile-specific styles */
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 1024px) {
+    /* Adjust styles for medium screens */
+    body {
+        font-size: 16px;
+    }
+    /* Add more tablet-specific styles */
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+    /* Adjust styles for large screens */
+    body {
+        font-size: 18px;
+    }
+    /* Add more desktop-specific styles */
+}
+
+#errorContainer {
+    color: red;
+    font-size: 14px;
+    /* Add more styles as needed */
+}
+
+/* Add more styles as needed */
